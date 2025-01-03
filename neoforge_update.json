@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/SokyranTheDragon/Slightly-ReBrushed",
+  "1.21.4": {
+    "0.9.0": "Initial mod release."
+  },
+  "promos": {
+    "1.21.4-latest": "0.9.0",
+    "1.21.4-recommended": "0.9.0"
+  }
+}
