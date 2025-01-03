@@ -1,0 +1,50 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+issueTrackerURL = "https://github.com/SokyranTheDragon/Slightly-ReBrushed/issues"
+license = "GNU General Public License v3.0"
+
+[[mods]]
+modId = "slightly_rebrushed"
+version = "${version}"
+displayName = "Slightly ReBrushed"
+authors = "Soky"
+description = '''
+More (and faster) brushes along with a couple of enchantments for them to make archeology slightly better.
+'''
+logoFile = "assets/slightly_rebrushed/icon.png"
+updateJSONURL = "https://raw.githubusercontent.com/SokyranTheDragon/Slightly-ReBrushed/refs/heads/update_checker/neoforge_update.json"
+displayURL = "https://github.com/SokyranTheDragon/Slightly-ReBrushed"
+
+[[dependencies.slightly_rebrushed]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.slightly_rebrushed]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.slightly_rebrushed]]
+modId = "architectury"
+type = "required"
+versionRange = "[15.0.1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.slightly_rebrushed]]
+modId = "librush"
+type = "required"
+versionRange = "[0.9.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "slightly_rebrushed.mixins.json"
+
+[[mixins]]
+config = "slightly_rebrushed_neoforge.mixins.json"

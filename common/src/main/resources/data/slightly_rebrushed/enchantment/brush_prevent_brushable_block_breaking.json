@@ -1,0 +1,23 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "enchantment.slightly_rebrushed.brush_prevent_brushable_block_breaking"
+  },
+  "effects": {
+    "slightly_rebrushed:prevent_brushable_block_breaking": {}
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#c:enchantable/brush",
+  "weight": 1
+}

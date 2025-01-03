@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "com.github.sokyranthedragon.slightlyrebrushed.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "minVersion": "0.8",
+    "client": [
+    ],
+    "mixins": [
+        "MixinBrushableBlockEntity"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+  }
+}

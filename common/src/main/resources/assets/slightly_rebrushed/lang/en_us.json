@@ -1,0 +1,15 @@
+{
+  "config.slightly_rebrushed.vanilla_brush_enchantable": "Vanilla brush can be enchanted at enchanting table",
+  "config.slightly_rebrushed.vanilla_brush_repairable": "Vanilla brush is repairable with copper",
+  "enchantment.slightly_rebrushed.brush_prevent_brushable_block_breaking": "Soft Touch",
+  "enchantment.slightly_rebrushed.brush_prevent_brushable_block_breaking.desc": "Prevents suspicious blocks from being mined if held in either hand.",
+  "enchantment.slightly_rebrushed.brush_smooth_sweeping": "Smooth Sweeping",
+  "enchantment.slightly_rebrushed.brush_smooth_sweeping.desc": "Makes brushing faster by making a single \"sweep\" take less time.",
+  "enchantment.slightly_rebrushed.brush_treasures_of_the_ancients": "Treasures of the Remnants",
+  "enchantment.slightly_rebrushed.brush_treasures_of_the_ancients.desc": "Some brushed blocks may give an additional reward. You may end up getting the same or a different reward.",
+  "item.slightly_rebrushed.diamond_brush": "Diamond brush",
+  "item.slightly_rebrushed.netherite_brush": "Netherite brush",
+  "tag.item.c.brushes": "Brushes",
+  "tag.item.c.copper_tool_materials": "Copper Tool Material",
+  "tag.item.c.enchantable.brush": "Brush Enchantable"
+}

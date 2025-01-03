@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "slightly_rebrushed:diamond_brush",
+  "result": {
+    "count": 1,
+    "id": "slightly_rebrushed:netherite_brush"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

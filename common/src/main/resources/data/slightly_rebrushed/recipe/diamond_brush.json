@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "#minecraft:diamond_tool_materials",
+    "I": "minecraft:stick",
+    "X": "minecraft:feather"
+  },
+  "pattern": [
+    "X",
+    "#",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "slightly_rebrushed:diamond_brush"
+  }
+}

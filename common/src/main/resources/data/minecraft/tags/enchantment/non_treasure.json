@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "slightly_rebrushed:brush_smooth_sweeping",
+      "required": false
+    },
+    {
+      "id": "slightly_rebrushed:brush_treasures_of_the_ancients",
+      "required": false
+    },
+    {
+      "id": "slightly_rebrushed:brush_prevent_brushable_block_breaking",
+      "required": false
+    }
+  ]
+}

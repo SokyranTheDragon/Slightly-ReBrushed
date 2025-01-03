@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "slightly_rebrushed",
+  "version": "${version}",
+  "name": "Slightly ReBrushed",
+  "description": "More (and faster) brushes along with a couple of enchantments for them to make archeology slightly better.",
+  "authors": [
+    "Soky"
+  ],
+  "contact": {
+    "homepage": "https://github.com/SokyranTheDragon/Slightly-ReBrushed",
+    "sources": "https://github.com/SokyranTheDragon/Slightly-ReBrushed",
+    "issues ": "https://github.com/SokyranTheDragon/Slightly-ReBrushed/issues"
+  },
+  "license": "GNU General Public License v3.0",
+  "icon": "assets/slightly_rebrushed/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.sokyranthedragon.slightlyrebrushed.fabric.SlightlyRebrushedModFabric"
+    ],
+    "client": [
+      "com.github.sokyranthedragon.slightlyrebrushed.fabric.client.SlightlyRebrushedModFabricClient"
+    ],
+    "fabric-datagen": [
+      "com.github.sokyranthedragon.slightlyrebrushed.datagen.fabric.SlightlyRebrushedDatagen"
+    ]
+  },
+  "mixins": [
+    "slightly_rebrushed.mixins.json",
+    "slightly_rebrushed_fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "architectury": ">=15.0.1",
+    "fabric-api": "*",
+    "librush": "*"
+  },
+  "suggests": {
+  }
+}
