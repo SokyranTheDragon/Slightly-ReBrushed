@@ -45,7 +45,7 @@ public class SlightlyRebrushedEnchantmentGenerator extends FabricDynamicRegistry
             Enchantment.enchantment(Enchantment.definition
                     (
                         items.getOrThrow(CommonItemTags.BRUSH_ENCHANTABLE),
-                        3,
+                        7,
                         3,
                         Enchantment.dynamicCost(1, 5),
                         Enchantment.dynamicCost(35, 10),
@@ -67,7 +67,7 @@ public class SlightlyRebrushedEnchantmentGenerator extends FabricDynamicRegistry
             Enchantment.enchantment(Enchantment.definition
                     (
                         items.getOrThrow(CommonItemTags.BRUSH_ENCHANTABLE),
-                        2,
+                        5,
                         3,
                         Enchantment.dynamicCost(10, 5),
                         Enchantment.dynamicCost(35, 10),
@@ -82,7 +82,7 @@ public class SlightlyRebrushedEnchantmentGenerator extends FabricDynamicRegistry
             Enchantment.enchantment(Enchantment.definition
                     (
                         items.getOrThrow(CommonItemTags.BRUSH_ENCHANTABLE),
-                        1,
+                        3,
                         1,
                         Enchantment.constantCost(10),
                         Enchantment.constantCost(40),
